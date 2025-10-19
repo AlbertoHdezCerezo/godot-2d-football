@@ -5,7 +5,7 @@ extends CharacterBody2D
 const DURATION_TACKLE := 200
 
 enum ControlScheme {CPU, P1, P2}
-enum State {MOVING, TACKLING}
+enum State {MOVING, TACKLING, RECOVERING}
 
 @export var speed : float
 @export var control_scheme : ControlScheme
